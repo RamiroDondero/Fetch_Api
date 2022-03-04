@@ -1,0 +1,28 @@
+ .menu{
+     padding-top: 2em;
+ }
+ 
+ li{
+     position: relative;
+     cursor: pointer;
+     list-style: none;
+     width: 50%;
+     margin: 0 auto;
+     height: 50px;
+     padding: 20px;
+     background: linear-gradient(to left, var(--accent-cyan), rgb(98, 116, 156));;  
+     border-radius: 5px;   
+     font-family: Raleway;
+     font-weight: bold;
+     margin-bottom: 0.5em;
+     color: azure;
+     line-height: 100%;
+     transform: scale(.95);
+     transition: .5s;
+     text-align: center;
+ }
+
+ li:hover{
+     transform: scale(1);
+ }
+ 

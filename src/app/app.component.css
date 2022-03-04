@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Raleway:wght@400;700&display=swap');
+
+.container{
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    /* background-color: white; */
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--darkBlue-2);
+    font-family: Raleway;
+}
+
+.hero_title{
+    word-spacing:  2px;
+    height: 29vh;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 3em;
+    text-align: center;
+    color: var(--accent-cyan);
+    background: linear-gradient(to left, #00c3ff, #ffff1c);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    font-style: oblique;
+    user-select: none;
+}
+
+.hero_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: aqua; */
+    
+}
+
+.items{
+    /* max-width: 25%; */
+    /* max-height: 70vh; */
+    width: 25%;
+    margin: 0 auto;
+    padding: 1em;
+    user-select: none;
+    /* background-color: blue; */
+}
+
+.hero__outlet{
+    width: 40%;
+    /* background-color: aliceblue; */
+}
