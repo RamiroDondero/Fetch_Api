@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Raleway:wght@400;700&display=swap');
 
 .container{
-    width: 80%;
+    width: 90%;
     height: 70vh;
     margin: 0 auto;
     /* background-color: white; */
@@ -10,6 +10,7 @@
 .hero{
     width: 100%;
     height: 100vh;
+    min-height: 100vh;
     background-color: var(--darkBlue-2);
     font-family: Raleway;
 }
@@ -17,9 +18,9 @@
 .hero_title{
     word-spacing:  2px;
     height: 29vh;
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 2em;
-    font-size: 3em;
+    font-size: 3rem;
     text-align: center;
     color: var(--accent-cyan);
     background: linear-gradient(to left, #00c3ff, #ffff1c);
@@ -36,19 +37,24 @@
     justify-content: center;
     /* background-color: aqua; */
     
-}
+} 
 
 .items{
+    flex-grow: 0;
     /* max-width: 25%; */
     /* max-height: 70vh; */
-    width: 25%;
-    margin: 0 auto;
+    width: 50%;
+    /* min-width: 60px; */
+    /* margin: 0 auto; */
     padding: 1em;
     user-select: none;
     /* background-color: blue; */
+    display: flex;
+    justify-content: center;
 }
 
 .hero__outlet{
     width: 40%;
+    min-width: 400px;
     /* background-color: aliceblue; */
 }
